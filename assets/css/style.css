@@ -1,0 +1,50 @@
+body {
+    background: #673ab7;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.divider {
+    margin: 20px;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 800;
+}
+
+li {
+    font-size: 20px;
+}
+
+#aboutMe {
+    padding: 5px;
+}
+
+#projectTitle {
+
+}
+
+.hero {
+    /* background: url(/images/purple_bubble.jpg); */
+    height: 600px;
+    width: 100%;
+    padding: 100px 0;
+    background-image:linear-gradient(#00000072, #00000087), url(/images/purple_bubble.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.responsive-img {
+    border: 5px #000000;
+    border-style: double;
+    border-radius: 20px; 
+}
+
+.responsive-img:hover {
+    box-shadow: inset 0px 0px 16px rgba(232, 102, 236, 1), 0 0 30px rgba(232, 102, 236, 1);
+}
+
+.center {
+    padding: 0 25px;
+}
